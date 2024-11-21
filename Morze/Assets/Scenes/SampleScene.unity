@@ -269,7 +269,7 @@ GameObject:
   - component: {fileID: 574597397}
   - component: {fileID: 574597399}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: ShowMorze
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -402,7 +402,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 574597394}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 463c1eed0f6a67f4b88fa5263359ac05, type: 3}
+  m_Script: {fileID: 11500000, guid: b07859f6a2129584cbcbe23f6021959a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 0}
