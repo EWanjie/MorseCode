@@ -442,6 +442,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.25f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/Script/AudioManager.cs"
 "Assets/Script/LightManager.cs"
+"Assets/Script/MainMenuManager.cs"
 "Assets/Script/SpaceManager.cs"
 "Assets/Script/TextControler.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
