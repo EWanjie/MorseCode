@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering;
 using static System.Collections.Specialized.BitVector32;
@@ -10,26 +11,26 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private AudioSource backgroundMusic;
     [SerializeField] private AudioSource radioSqueak;
 
+    private bool isMusic;
+    private bool isSound;
+
+    public void SetAudio()
+    {
+        backgroundMusic.mute = AudioMixerManager.isMusic ? false : true;
+        radioSqueak.mute = AudioMixerManager.isSound ? false : true;
+    }
+
     private void Awake()
     {
         Instance = this;
-    }
-
-    public void PlayingBackground(bool isPlay)
-    {
-        PlayStop(backgroundMusic, isPlay);
+        SetAudio();
     }
 
     public void PlayingRadio(bool isPlay)
     {
-        PlayStop(radioSqueak, isPlay);
-    }
-
-    private void PlayStop(AudioSource sound, bool isPlay)
-    {
         if (isPlay)
-            sound.Play();
+            radioSqueak.Play();
         else
-            sound.Stop();
+            radioSqueak.Stop();
     }
 }

@@ -5,8 +5,11 @@ using UnityEngine;
 public class SpaceManager : MonoBehaviour
 {
     private bool isSpace = false;
-    private bool isMusic = true;
     private bool isInput = false;
+
+    private bool isFirst = true;
+    private int timerDuration = 5;
+    private int timer = 0;
 
     private const int pointSpeed = 25; // Скорость нажатия на клавишу
     private const int dashSpeed = 3 * pointSpeed;
@@ -19,13 +22,15 @@ public class SpaceManager : MonoBehaviour
 
     private void Start()
     {
+        curentDashSpeed = dashSpeed;
         curentSymbolSpeed = symbolSpeed;
         curentWhitespaceSpeed = whitespaceSpeed;
     }
 
     private void Update()
     {
-        Music();
+        if (isFirst)
+            timer++;
 
         if (!isInput)
         {
@@ -35,11 +40,8 @@ public class SpaceManager : MonoBehaviour
                 return;  
         }
 
-        Space();
-
         if (isSpace)
         {
-
             if (curentDashSpeed > 0)
                 curentDashSpeed--;
         }
@@ -54,7 +56,9 @@ public class SpaceManager : MonoBehaviour
                 curentWhitespaceSpeed--;
             if (curentWhitespaceSpeed == 0)
                 TextControler.Instance.AddSymbol(' ');
-        }   
+        }
+
+        Space();
     }
 
     private void Space()
@@ -63,11 +67,25 @@ public class SpaceManager : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            if (isFirst && timer < timerDuration)
+                return;
+
+            isFirst = false;
             isSpace = true;
+
+            if (curentDashSpeed == dashSpeed - 1)
+                return;
+
             curentDashSpeed = dashSpeed;
         }
         else if (Input.GetKeyUp(KeyCode.Space))
         {
+            if (isFirst)
+            {
+                isFirst = false;
+                return;
+            }
+
             isSpace = false;
 
             char symbol = (curentDashSpeed == 0) ? '-' : '.';
@@ -84,19 +102,4 @@ public class SpaceManager : MonoBehaviour
             currentSpace = isSpace;
         }        
     }
-
-
-
-
-
-    private void Music() // Отключение музыки
-    {
-        if (Input.GetKeyDown(KeyCode.M))   // Отключение музыки. Удалить в последствии из-за неудобства
-        {                                   // Включение - выключение музыки. Исправить с кнопки клавиатуры на кнопку
-            isMusic = !isMusic;
-            AudioManager.Instance.PlayingBackground(isMusic);
-            //Изменить иконку звука
-        }
-    }
-
 }
