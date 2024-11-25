@@ -7,7 +7,8 @@ using UnityEngine.UI;
 
 public class MainMenuManager : MonoBehaviour
 {
-    [SerializeField] private List<Button> buttonList;
+
+    [SerializeField] private List<ButtonTupe> buttonList;
     [SerializeField] private GameObject aboutUs;
 
     private bool isFirst = true;
@@ -101,18 +102,13 @@ public class MainMenuManager : MonoBehaviour
 
     private void SelectButton()
     {
-        Color activeColor = (currentShortPress == 0 && isPress) ? Color.yellow : Color.red;
+        Sprite currontSprite;
+        currontSprite = (currentShortPress == 0 && isPress) ? buttonList[currentButton].pressed : buttonList[currentButton].selected;
 
         for (int i = 0; i < buttonList.Count; i++)
         {
-            Color colorButton = (i == currentButton) ? activeColor : Color.blue;
-
-            var button = buttonList[i];
-            var colors = button.colors;
-            var disabledColor = colors.disabledColor;
-            disabledColor = colorButton;
-            colors.disabledColor = disabledColor;
-            button.colors = colors;
+            Sprite sprite = (i == currentButton) ? currontSprite : buttonList[i].normal;
+            buttonList[i].button.image.sprite = sprite;
         }        
     }
 
@@ -134,5 +130,15 @@ public class MainMenuManager : MonoBehaviour
                 Application.Quit();
                 break;
         }
+    }
+
+    [System.Serializable]
+    public class ButtonTupe
+    {
+        public Button button;
+
+        public Sprite normal;
+        public Sprite pressed;
+        public Sprite selected;
     }
 }

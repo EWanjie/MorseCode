@@ -9,7 +9,8 @@ using UnityEngine.UI;
 
 public class SettingManager : MonoBehaviour
 {
-    [SerializeField] private List<Button> buttonList;
+    //[SerializeField] private List<Button> buttonList;
+    [SerializeField] private List<ButtonTupe> buttonList;
 
     private bool isPress = false;
 
@@ -35,10 +36,10 @@ public class SettingManager : MonoBehaviour
     private void Start()
     {
         string music = (AudioMixerManager.isMusic) ? "Music: on" : "Music: off";
-        buttonList[0].GetComponentInChildren<TextMeshProUGUI>().text = music;
+        buttonList[0].button.GetComponentInChildren<TextMeshProUGUI>().text = music;
 
         string sound = (AudioMixerManager.isSound) ? "Sounds: on" : "Sound: off";
-        buttonList[1].GetComponentInChildren<TextMeshProUGUI>().text = sound;
+        buttonList[1].button.GetComponentInChildren<TextMeshProUGUI>().text = sound;
     }
 
     private void Update()
@@ -106,18 +107,13 @@ public class SettingManager : MonoBehaviour
 
     private void SelectButton()
     {
-        Color activeColor = (currentShortPress == 0 && isPress) ? Color.yellow : Color.red;
+        Sprite currontSprite;
+        currontSprite = (currentShortPress == 0 && isPress) ? buttonList[currentButton].pressed : buttonList[currentButton].selected;
 
         for (int i = 0; i < buttonList.Count; i++)
         {
-            Color colorButton = (i == currentButton) ? activeColor : Color.blue;
-
-            var button = buttonList[i];
-            var colors = button.colors;
-            var disabledColor = colors.disabledColor;
-            disabledColor = colorButton;
-            colors.disabledColor = disabledColor;
-            button.colors = colors;
+            Sprite sprite = (i == currentButton) ? currontSprite : buttonList[i].normal;
+            buttonList[i].button.image.sprite = sprite;
         }
     }
 
@@ -128,17 +124,35 @@ public class SettingManager : MonoBehaviour
             case 0:
                 AudioMixerManager.Instance.SetMusic();
                 string music = (AudioMixerManager.isMusic) ? "Music: on" : "Music: off";
-                buttonList[index].GetComponentInChildren<TextMeshProUGUI>().text = music;
+                buttonList[index].button.GetComponentInChildren<TextMeshProUGUI>().text = music;
                 break;
             case 1:
                 AudioMixerManager.Instance.SetSound();
                 string sound = (AudioMixerManager.isSound) ? "Sounds: on" : "Sound: off";
-                buttonList[index].GetComponentInChildren<TextMeshProUGUI>().text = sound;
+                buttonList[index].button.GetComponentInChildren<TextMeshProUGUI>().text = sound;
                 break;
             case 2:
                 SceneManager.LoadScene("Main Menu");
                 break;
         }
+    }
+
+    [System.Serializable]
+    public class ButtonTupe
+    {
+        public Button button;
+
+        public Sprite normal;
+        public Sprite pressed;
+        public Sprite selected;
+
+        //public Sprite onNormal;
+        //public Sprite onPressed;
+        //public Sprite onSelected;
+
+        //public Sprite offNormal;
+        //public Sprite offPressed;
+        //public Sprite offSelected;
     }
 }
 
