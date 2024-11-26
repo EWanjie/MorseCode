@@ -6,6 +6,7 @@ public class AudioMixerManager : MonoBehaviour
 
     public static bool isMusic = true;
     public static bool isSound = true;
+    public static string lastScene;
 
     private void Awake()
     {

@@ -120,6 +120,7 @@ public class MainMenuManager : MonoBehaviour
                 SceneManager.LoadScene("Game Scene");
                 break;
             case 1:
+                AudioMixerManager.lastScene = SceneManager.GetActiveScene().name;
                 SceneManager.LoadScene("Settings");
                 break;
             case 2:
