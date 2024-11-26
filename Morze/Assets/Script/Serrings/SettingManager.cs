@@ -149,8 +149,16 @@ public class SettingManager : MonoBehaviour
                 SelectButton();
                 break;
             case 2:
-                isActive = false;
-                AskManager.Instance.toActive(true);
+                if (AudioMixerManager.lastScene == "Main Menu")
+                {
+                    SceneManager.LoadScene("Main Menu");
+                }
+                else
+                {
+                    isActive = false;
+                    AskManager.Instance.toActive(true);
+                }
+                    
                 break;
             case 3:
                 SceneManager.LoadScene("Game Scene");
