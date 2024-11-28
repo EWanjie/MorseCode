@@ -55,7 +55,7 @@ public class SpaceManager : MonoBehaviour
             if (curentWhitespaceSpeed >= 0)
                 curentWhitespaceSpeed--;
             if (curentWhitespaceSpeed == 0)
-                TextControler.Instance.AddSymbol(' ');
+                TextControler.Instance.Reset();
         }
 
         Space();

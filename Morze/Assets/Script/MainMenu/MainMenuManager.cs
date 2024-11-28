@@ -27,8 +27,11 @@ public class MainMenuManager : MonoBehaviour
 
     private void Awake()
     {
-        currentShortPress = shortPressDuration;
-        currentPressDuration = longPressDuration;
+        //currentShortPress = shortPressDuration;
+        //currentPressDuration = longPressDuration;
+
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
 
         aboutUs.SetActive(isAboutUs);
         SelectButton();

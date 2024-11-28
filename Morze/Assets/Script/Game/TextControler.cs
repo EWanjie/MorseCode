@@ -42,16 +42,23 @@ public class TextControler : MonoBehaviour
     public void AddSymbol(char symbol)
     {
         morzeCode += symbol;
+        currentSymbol += symbol;
         scoreText.text = morzeCode;
+    }
 
-        if(symbol == ' ')
+
+    public void Reset()
+    {
+        if (morzeDecoderCode == DeathCodeManager.deachCode)
         {
-            morzeDecoderCode += symbol;
+            GameManager.Instance.KillEnemy();
         }
-        else
-        {
-            currentSymbol += symbol;
-        }          
+
+        morzeCode = "";
+        morzeDecoderCode = "";
+
+        scoreText.text = morzeCode;
+        scoreDecoderText.text = morzeDecoderCode;
     }
 
     public void Decoder()
@@ -60,6 +67,7 @@ public class TextControler : MonoBehaviour
 
         if (morzeDictionary['o'] == currentSymbol)
         {
+            Reset();
             AudioMixerManager.lastScene = SceneManager.GetActiveScene().name;
             SceneManager.LoadScene("Settings");
             return;

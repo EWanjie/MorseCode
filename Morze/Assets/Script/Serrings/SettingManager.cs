@@ -34,6 +34,9 @@ public class SettingManager : MonoBehaviour
         isActive = true;
         AskManager.Instance.toActive(false);
 
+        buttonList[0].isActive = AudioMixerManager.isMusic;
+        buttonList[1].isActive = AudioMixerManager.isSound;
+
         SelectButton();
     }
 
@@ -48,8 +51,6 @@ public class SettingManager : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log(isActive);
-
         if(!isActive)
             return;
 
