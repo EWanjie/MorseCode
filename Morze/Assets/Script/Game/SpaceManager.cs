@@ -13,8 +13,8 @@ public class SpaceManager : MonoBehaviour
 
     private const int pointSpeed = 25; // Скорость нажатия на клавишу
     private const int dashSpeed = 3 * pointSpeed;
-    private const int symbolSpeed = 4 * pointSpeed;
-    private const int whitespaceSpeed = 10 * pointSpeed;
+    private const int symbolSpeed = 5 * pointSpeed;
+    private const int whitespaceSpeed = 20 * pointSpeed;
 
     private int curentDashSpeed;
     private int curentSymbolSpeed;

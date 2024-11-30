@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -10,6 +11,7 @@ using UnityEngine.UI;
 public class SettingManager : MonoBehaviour
 {
     [SerializeField] private List<ButtonTupe> buttonList;
+    [SerializeField] GameObject newBackground;
 
     public static bool isActive;
 
@@ -46,6 +48,8 @@ public class SettingManager : MonoBehaviour
         {
             buttonList[3].button.gameObject.SetActive(false);
             buttonList.RemoveAt(buttonList.Count - 1);
+
+            newBackground.gameObject.SetActive(false);
         }
     }
 

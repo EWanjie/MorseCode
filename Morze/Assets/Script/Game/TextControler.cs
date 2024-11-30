@@ -49,7 +49,7 @@ public class TextControler : MonoBehaviour
 
     public void Reset()
     {
-        if (morzeDecoderCode == DeathCodeManager.deachCode)
+        if (morzeDecoderCode == GameManager.actualWord)
         {
             GameManager.Instance.KillEnemy();
         }
