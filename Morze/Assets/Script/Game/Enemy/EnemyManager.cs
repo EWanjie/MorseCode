@@ -11,7 +11,7 @@ public class EnemyManager : MonoBehaviour
     [SerializeField] private GameObject combatInstallation;
 
     private const float angleSpam = 45;
-    private const float speed = 5f;
+    private const float speed = 0.5f;
 
     private Vector3 combatPosition;
 

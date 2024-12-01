@@ -231,8 +231,9 @@ GameObject:
   - component: {fileID: 9135571486691562911}
   - component: {fileID: 8720531717674698112}
   - component: {fileID: 5045089908177462179}
+  - component: {fileID: 5344555732800647211}
   m_Layer: 0
-  m_Name: "\u0441\u0442\u0432\u043E\u043B_0"
+  m_Name: "\u0441\u0442\u0432\u043E\u043B"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -247,7 +248,7 @@ Transform:
   m_GameObject: {fileID: 8704530683716749420}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.005338192, y: 3.17, z: 0}
+  m_LocalPosition: {x: 0, y: 3.17, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -296,7 +297,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 100
   m_Sprite: {fileID: -9172386582089136847, guid: 4c86138735c2dbd4f968fd525abeabf5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -409,3 +410,16 @@ PolygonCollider2D:
       - {x: 0.295, y: 0.355}
       - {x: 0.285, y: 0.36499998}
   m_UseDelaunayMesh: 0
+--- !u!114 &5344555732800647211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8704530683716749420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27e0616aefba6c0488801c6153607190, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pivotPoint: {fileID: 0}

@@ -20,9 +20,10 @@ public class GameManager : MonoBehaviour
     private List<GameObject> enemyPull = new List<GameObject>();
     private GameObject activeEnemy;
     private bool newObject = true;
+    private bool isActiveEnemy = false;
 
-    private int firstTime = 2;
-    private int lastTime = 5;
+    private int firstTime = 5;
+    private int lastTime = 10;
 
 
     public static String actualWord;
@@ -35,15 +36,27 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         NewEnemy();
-        NearestActive();
-
-        Transform child = activeEnemy.transform.Find("Death Code");
-        TextMeshProUGUI textCode = child.gameObject.GetComponent<TextMeshProUGUI>();
-        actualWord = textCode.text;
     }
 
     private void Update()
     {
+        if(!isActiveEnemy && enemyPull.Count > 0)
+        {
+            NearestActive();
+
+            ActiveText(activeEnemy, true);
+
+            Transform childText = activeEnemy.transform.Find("Death Code");
+            Transform childBody = activeEnemy.transform.Find("Sprite");
+
+            TextMeshProUGUI textCode = childText.gameObject.GetComponent<TextMeshProUGUI>();
+            actualWord = textCode.text;
+
+            StvolManager.Instance.SetRotation((Vector3)activeEnemy.transform.localPosition);
+
+            isActiveEnemy = true;
+        }
+
         if (newObject)
             NewEnemy();
     }
@@ -61,12 +74,14 @@ public class GameManager : MonoBehaviour
         Transform child = activeObject.transform.Find("Death Code");
 
         if (child != null)
-            child.gameObject.SetActive(active);           
+        {
+            child.gameObject.SetActive(active);
+        }           
     }
 
     private void NearestActive()
     {
-        if(enemyPull.Count < 0)
+        if(enemyPull.Count <= 0)
             return;
 
         activeEnemy = enemyPull.First();
@@ -76,14 +91,6 @@ public class GameManager : MonoBehaviour
             if (Distance(item) < Distance(activeEnemy))
                 activeEnemy = item;
         }
-
-        for (int i = 1; i < enemyPull.Count; i++)
-        {
-            if (Distance(enemyPull[i]) < Distance(activeEnemy))
-                activeEnemy = enemyPull[i];
-        }
-
-        ActiveText(activeEnemy, true);
     }
 
     private double Distance(GameObject distanceObject)
@@ -101,16 +108,17 @@ public class GameManager : MonoBehaviour
         enemyPull.Remove(activeEnemy);
         Destroy(activeEnemy);
 
-        NearestActive();
-
-        Transform child = activeEnemy.transform.Find("Death Code");
-        TextMeshProUGUI textCode = child.gameObject.GetComponent<TextMeshProUGUI>();
-        actualWord = textCode.text;
+        isActiveEnemy = false;
     }
 
     public void EndGame()
     {
         Debug.Log("End Game");
+
+        enemyPull.Remove(activeEnemy);
+        Destroy(activeEnemy);
+
+        isActiveEnemy = false;
     }
 
     IEnumerator Pause()

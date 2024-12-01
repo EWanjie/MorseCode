@@ -448,6 +448,7 @@
 "Assets/Script/Game/GameManager.cs"
 "Assets/Script/Game/LightManager.cs"
 "Assets/Script/Game/SpaceManager.cs"
+"Assets/Script/Game/StvolManager.cs"
 "Assets/Script/Game/TextControler.cs"
 "Assets/Script/MainMenu/MainMenuManager.cs"
 "Assets/Script/Serrings/AskManager.cs"
