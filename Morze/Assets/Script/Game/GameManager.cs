@@ -8,6 +8,8 @@ using System;
 using System.Linq;
 using TMPro;
 using UnityEngine.InputSystem.HID;
+using UnityEditor.EditorTools;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -15,41 +17,110 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private GameObject enemyGameObject;
     [SerializeField] private GameObject combatInstallation;
-
+    [SerializeField] private GameObject endGameImage;
+    [SerializeField] private GameObject winGameImage;
 
     private List<GameObject> enemyPull = new List<GameObject>();
     private GameObject activeEnemy;
     private bool newObject = true;
+    private bool isActiveEnemy = false;
 
-    private int firstTime = 2;
-    private int lastTime = 5;
+    public bool inGame = true;
+    public bool isActive = true;
 
+    private int numEnemy = 10;
 
+    private int firstTime = 15;
+    private int lastTime = 10;
+
+    public bool endGame = false;
     public static String actualWord;
 
     private void Awake()
     {
-        Instance = this;
+        if (Instance == null)
+        {
+            DontDestroyOnLoad(gameObject);
+            Instance = this;
+        }
+        else if (Instance != this)
+        {
+            Destroy(gameObject);
+        }
     }
 
     private void Start()
     {
         NewEnemy();
-        NearestActive();
-
-        Transform child = activeEnemy.transform.Find("Death Code");
-        TextMeshProUGUI textCode = child.gameObject.GetComponent<TextMeshProUGUI>();
-        actualWord = textCode.text;
+        endGameImage.SetActive(false);
+        winGameImage.SetActive(false);
     }
 
     private void Update()
     {
-        if (newObject)
+        if (SceneManager.GetActiveScene().name == "Main Menu")
+            Destroy(gameObject);
+        else if (SceneManager.GetActiveScene().name == "Settings" && isActive)
+        {
+            isActive = false;  
+            combatInstallation.SetActive(isActive);
+        }
+        else if (SceneManager.GetActiveScene().name == "Game Scene" && !isActive)
+        {
+            isActive = true;
+            combatInstallation.SetActive(isActive);
+        }
+
+
+        if (!inGame)
+            return;
+
+        if (endGame)
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                SceneManager.LoadScene("Main Menu");
+                Destroy(gameObject);
+            }
+            return;
+        }
+
+       
+        if (!isActiveEnemy && enemyPull.Count > 0)
+        {
+            NearestActive();
+
+            ActiveText(activeEnemy, true);
+
+            Transform childText = activeEnemy.transform.Find("Death Code");
+            Transform childBody = activeEnemy.transform.Find("Sprite");
+
+            TextMeshProUGUI textCode = childText.gameObject.GetComponent<TextMeshProUGUI>();
+            actualWord = textCode.text;
+
+            StvolManager.Instance.SetRotation((Vector3)activeEnemy.transform.localPosition);
+
+            isActiveEnemy = true;
+        }
+
+        if (newObject && numEnemy > 0)
             NewEnemy();
+    }
+
+    public void StartAgain()
+    {
+        inGame = true;
+        StartCoroutine(Pause());
+    }
+
+    public void toSetting()
+    {
+        inGame = false;
     }
 
     public void NewEnemy()
     {
+        numEnemy--;
         GameObject newEnemy = Instantiate(enemyGameObject, transform);
         ActiveText(newEnemy, false);
         enemyPull.Add(newEnemy);
@@ -61,12 +132,14 @@ public class GameManager : MonoBehaviour
         Transform child = activeObject.transform.Find("Death Code");
 
         if (child != null)
-            child.gameObject.SetActive(active);           
+        {
+            child.gameObject.SetActive(active);
+        }
     }
 
     private void NearestActive()
     {
-        if(enemyPull.Count < 0)
+        if (enemyPull.Count <= 0)
             return;
 
         activeEnemy = enemyPull.First();
@@ -76,14 +149,6 @@ public class GameManager : MonoBehaviour
             if (Distance(item) < Distance(activeEnemy))
                 activeEnemy = item;
         }
-
-        for (int i = 1; i < enemyPull.Count; i++)
-        {
-            if (Distance(enemyPull[i]) < Distance(activeEnemy))
-                activeEnemy = enemyPull[i];
-        }
-
-        ActiveText(activeEnemy, true);
     }
 
     private double Distance(GameObject distanceObject)
@@ -96,21 +161,23 @@ public class GameManager : MonoBehaviour
 
     public void KillEnemy()
     {
-        Debug.Log("Kill Enemy");
-
         enemyPull.Remove(activeEnemy);
         Destroy(activeEnemy);
 
-        NearestActive();
+        isActiveEnemy = false;
 
-        Transform child = activeEnemy.transform.Find("Death Code");
-        TextMeshProUGUI textCode = child.gameObject.GetComponent<TextMeshProUGUI>();
-        actualWord = textCode.text;
+        if (numEnemy == 0)
+        {
+            endGame = true;
+            winGameImage.SetActive(true);
+        }
+            
     }
 
     public void EndGame()
     {
-        Debug.Log("End Game");
+        endGameImage.SetActive(true);
+        endGame = true;
     }
 
     IEnumerator Pause()

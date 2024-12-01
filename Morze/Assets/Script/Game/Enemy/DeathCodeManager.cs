@@ -10,8 +10,8 @@ public class DeathCodeManager : MonoBehaviour
 
     public static string deachCode;
 
-    private const int minWordLength = 2;
-    private const int maxWordLength = 2;
+    private const int minWordLength = 1;
+    private const int maxWordLength = 4;
 
     private const int asciiA = 65;
     private const int asciiZ = 90;

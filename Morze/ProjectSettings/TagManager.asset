@@ -11,7 +11,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - 6
   - 
   - 
   - 
@@ -43,6 +43,12 @@ TagManager:
     locked: 0
   - name: AskBox
     uniqueID: 2314091261
+    locked: 0
+  - name: New Layer 2
+    uniqueID: 962257131
+    locked: 0
+  - name: New Layer 3
+    uniqueID: 1587617505
     locked: 0
   m_RenderingLayers:
   - Default

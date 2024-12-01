@@ -1,25 +1,25 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: D:/GitHub/EWanjie/MorseCode/Morze/Packages/manifest.json
+    m_FilePath: "C:/\u041F\u0440\u043E\u0433\u0433\u0438/MorseCode/Morze/Packages/manifest.json"
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638686542675747227
-    m_Hash: 1982666467
+      ticks: 638686662810685592
+    m_Hash: 252911325
   m_LockFileStatus:
-    m_FilePath: D:/GitHub/EWanjie/MorseCode/Morze/Packages/packages-lock.json
+    m_FilePath: "C:/\u041F\u0440\u043E\u0433\u0433\u0438/MorseCode/Morze/Packages/packages-lock.json"
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638686542676081339
-    m_Hash: 192736220
+      ticks: 638686662810685592
+    m_Hash: 516160032
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: D:/GitHub/EWanjie/MorseCode/Morze/Packages
+m_ProjectPath: "C:/\u041F\u0440\u043E\u0433\u0433\u0438/MorseCode/Morze/Packages"
 m_EditorVersion: 6000.0.25f1 (4859ab7b5a49)
 m_ResolvedPackages:
 - packageId: com.unity.collab-proxy@2.5.2
@@ -27,7 +27,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.5.2
   source: 1
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.collab-proxy
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.collab-proxy"
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -186,7 +186,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 4.2.3
   source: 1
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.connect.share
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.connect.share"
   assetPath: Packages/com.unity.connect.share
   name: com.unity.connect.share
   displayName: WebGL Publisher
@@ -292,7 +292,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.1
   source: 2
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.feature.2d
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.feature.2d"
   assetPath: Packages/com.unity.feature.2d
   name: com.unity.feature.2d
   displayName: 2D
@@ -428,7 +428,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.31
   source: 1
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.ide.rider
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.ide.rider"
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -547,7 +547,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.22
   source: 1
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.ide.visualstudio
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.ide.visualstudio"
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -653,7 +653,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.11.2
   source: 1
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.inputsystem
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.inputsystem"
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -804,7 +804,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.multiplayer.center
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.multiplayer.center"
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -894,7 +894,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 17.0.3
   source: 2
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.render-pipelines.universal
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.render-pipelines.universal"
   assetPath: Packages/com.unity.render-pipelines.universal
   name: com.unity.render-pipelines.universal
   displayName: Universal RP
@@ -1056,7 +1056,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.4.5
   source: 1
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.test-framework
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.test-framework"
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -1219,7 +1219,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.7
   source: 1
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.timeline
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.timeline"
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1402,7 +1402,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.ugui
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.ugui"
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -1494,7 +1494,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.9.4
   source: 1
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.visualscripting
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.visualscripting"
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1607,7 +1607,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.modules.accessibility
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.modules.accessibility"
   assetPath: Packages/com.unity.modules.accessibility
   name: com.unity.modules.accessibility
   displayName: Accessibility
@@ -1674,7 +1674,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.modules.ai
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.modules.ai"
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -1741,7 +1741,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.modules.androidjni
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.modules.androidjni"
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -1807,7 +1807,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.modules.animation
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.modules.animation"
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -1874,7 +1874,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.modules.assetbundle
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.modules.assetbundle"
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -1941,7 +1941,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.modules.audio
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.modules.audio"
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -2008,7 +2008,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.modules.cloth
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.modules.cloth"
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -2079,7 +2079,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.modules.director
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.modules.director"
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -2154,7 +2154,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.modules.imageconversion
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.modules.imageconversion"
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -2221,7 +2221,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.modules.imgui
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.modules.imgui"
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -2288,7 +2288,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.modules.jsonserialize
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.modules.jsonserialize"
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -2355,7 +2355,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.modules.particlesystem
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.modules.particlesystem"
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -2422,7 +2422,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.modules.physics
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.modules.physics"
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -2489,7 +2489,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.modules.physics2d
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.modules.physics2d"
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -2556,7 +2556,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.modules.screencapture
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.modules.screencapture"
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -2627,7 +2627,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.modules.terrain
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.modules.terrain"
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -2694,7 +2694,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.modules.terrainphysics
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.modules.terrainphysics"
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -2769,7 +2769,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.modules.tilemap
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.modules.tilemap"
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -2839,7 +2839,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.modules.ui
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.modules.ui"
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -2906,7 +2906,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.modules.uielements
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.modules.uielements"
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -2989,7 +2989,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.modules.umbra
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.modules.umbra"
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -3056,7 +3056,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.modules.unityanalytics
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.modules.unityanalytics"
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -3130,7 +3130,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.modules.unitywebrequest
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.modules.unitywebrequest"
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -3197,7 +3197,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.modules.unitywebrequestassetbundle"
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -3272,7 +3272,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.modules.unitywebrequestaudio
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.modules.unitywebrequestaudio"
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -3347,7 +3347,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.modules.unitywebrequesttexture
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.modules.unitywebrequesttexture"
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -3422,7 +3422,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.modules.unitywebrequestwww
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.modules.unitywebrequestwww"
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -3513,7 +3513,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.modules.vehicles
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.modules.vehicles"
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -3584,7 +3584,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.modules.video
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.modules.video"
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -3663,7 +3663,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.modules.vr
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.modules.vr"
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -3744,7 +3744,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.modules.wind
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.modules.wind"
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -3811,7 +3811,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.modules.xr
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.modules.xr"
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -3890,7 +3890,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.modules.subsystems
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.modules.subsystems"
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -3961,7 +3961,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.modules.hierarchycore
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.modules.hierarchycore"
   assetPath: Packages/com.unity.modules.hierarchycore
   name: com.unity.modules.hierarchycore
   displayName: Hierarchy Core
@@ -4028,7 +4028,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.5
   source: 1
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.ext.nunit
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.ext.nunit"
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -4107,7 +4107,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.0.3
   source: 2
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.render-pipelines.core
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.render-pipelines.core"
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
   displayName: Core RP Library
@@ -4321,7 +4321,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.0.3
   source: 2
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.shadergraph
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.shadergraph"
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -4524,7 +4524,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.0.3
   source: 2
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.render-pipelines.universal-config
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.render-pipelines.universal-config"
   assetPath: Packages/com.unity.render-pipelines.universal-config
   name: com.unity.render-pipelines.universal-config
   displayName: Universal RP Config
@@ -4622,7 +4622,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 10.1.3
   source: 1
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.2d.animation
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.2d.animation"
   assetPath: Packages/com.unity.2d.animation
   name: com.unity.2d.animation
   displayName: 2D Animation
@@ -4874,7 +4874,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 5.0.3
   source: 1
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.2d.pixel-perfect
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.2d.pixel-perfect"
   assetPath: Packages/com.unity.2d.pixel-perfect
   name: com.unity.2d.pixel-perfect
   displayName: 2D Pixel Perfect
@@ -4969,7 +4969,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 9.0.3
   source: 1
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.2d.psdimporter
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.2d.psdimporter"
   assetPath: Packages/com.unity.2d.psdimporter
   name: com.unity.2d.psdimporter
   displayName: 2D PSD Importer
@@ -5144,7 +5144,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.2d.sprite
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.2d.sprite"
   assetPath: Packages/com.unity.2d.sprite
   name: com.unity.2d.sprite
   displayName: 2D Sprite
@@ -5214,7 +5214,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 10.0.6
   source: 1
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.2d.spriteshape
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.2d.spriteshape"
   assetPath: Packages/com.unity.2d.spriteshape
   name: com.unity.2d.spriteshape
   displayName: 2D SpriteShape
@@ -5407,7 +5407,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.2d.tilemap
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.2d.tilemap"
   assetPath: Packages/com.unity.2d.tilemap
   name: com.unity.2d.tilemap
   displayName: 2D Tilemap Editor
@@ -5494,7 +5494,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 4.0.2
   source: 1
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.2d.tilemap.extras
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.2d.tilemap.extras"
   assetPath: Packages/com.unity.2d.tilemap.extras
   name: com.unity.2d.tilemap.extras
   displayName: 2D Tilemap Extras
@@ -5641,7 +5641,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.1.6
   source: 1
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.2d.aseprite
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.2d.aseprite"
   assetPath: Packages/com.unity.2d.aseprite
   name: com.unity.2d.aseprite
   displayName: 2D Aseprite Importer
@@ -5754,7 +5754,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 1
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.editorcoroutines
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.editorcoroutines"
   assetPath: Packages/com.unity.editorcoroutines
   name: com.unity.editorcoroutines
   displayName: Editor Coroutines
@@ -5831,7 +5831,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.1
   source: 1
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.settings-manager
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.settings-manager"
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager
@@ -5905,7 +5905,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 4.9.2
   source: 1
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.searcher
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.searcher"
   assetPath: Packages/com.unity.searcher
   name: com.unity.searcher
   displayName: Searcher
@@ -5989,7 +5989,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.8.18
   source: 1
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.burst
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.burst"
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -6207,7 +6207,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.3.2
   source: 1
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.mathematics
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.mathematics"
   assetPath: Packages/com.unity.mathematics
   name: com.unity.mathematics
   displayName: Mathematics
@@ -6296,7 +6296,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.5.1
   source: 1
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.collections
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.collections"
   assetPath: Packages/com.unity.collections
   name: com.unity.collections
   displayName: Collections
@@ -6462,7 +6462,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.1
   source: 2
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.rendering.light-transport
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.rendering.light-transport"
   assetPath: Packages/com.unity.rendering.light-transport
   name: com.unity.rendering.light-transport
   displayName: Unity Light Transport Library
@@ -6558,7 +6558,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 9.0.6
   source: 1
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.2d.common
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.2d.common"
   assetPath: Packages/com.unity.2d.common
   name: com.unity.2d.common
   displayName: 2D Common
@@ -6715,7 +6715,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.11.4
   source: 1
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.nuget.mono-cecil
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.nuget.mono-cecil"
   assetPath: Packages/com.unity.nuget.mono-cecil
   name: com.unity.nuget.mono-cecil
   displayName: Mono Cecil
@@ -6795,7 +6795,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.0.3
   source: 1
-  resolvedPath: D:\GitHub\EWanjie\MorseCode\Morze\Library\PackageCache\com.unity.test-framework.performance
+  resolvedPath: "C:\\\u041F\u0440\u043E\u0433\u0433\u0438\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.test-framework.performance"
   assetPath: Packages/com.unity.test-framework.performance
   name: com.unity.test-framework.performance
   displayName: Performance testing API
