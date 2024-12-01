@@ -11,7 +11,7 @@ public class EnemyManager : MonoBehaviour
     [SerializeField] private GameObject combatInstallation;
 
     private const float angleSpam = 45;
-    private const float speed = 5f;
+    private const float speed = 0.1f;
 
     private Vector3 combatPosition;
 
@@ -32,7 +32,7 @@ public class EnemyManager : MonoBehaviour
         enemyRotation.z = Random.Range(- 1 * angleSpam, angleSpam);
         transform.eulerAngles = enemyRotation;
 
-        enemyPosition.y = Camera.main.orthographicSize;
+        enemyPosition.y = Camera.main.orthographicSize - enemyScale.y;
 
         double radians = Math.Abs(enemyRotation.z) * (Math.PI / 180); 
         double x = (combatPosition.y - enemyPosition.y) * Math.Tan(radians);
@@ -44,7 +44,7 @@ public class EnemyManager : MonoBehaviour
 
     private void Update()
     {
-        if (isTrigger)
+        if (isTrigger || GameManager.Instance.endGame || !GameManager.Instance.inGame)
             return;
 
         float step = speed * Time.deltaTime;

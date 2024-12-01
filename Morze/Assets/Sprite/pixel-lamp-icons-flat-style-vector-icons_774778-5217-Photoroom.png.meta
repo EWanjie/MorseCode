@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pixel-lamp-icons-flat-style-vector-icons_774778-5217-Photoroom_0: 2647760230125283572
+      pixel-lamp-icons-flat-style-vector-icons_774778-5217-Photoroom_1: 4110329102512594774
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

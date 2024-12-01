@@ -16,6 +16,14 @@
       "version": "2.5.2",
       "source": "registry"
     },
+    "com.unity.connect.share@4.2.3": {
+      "name": "com.unity.connect.share",
+      "resolvedPath": "C:\\Прогги\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.connect.share",
+      "fingerprint": "2f75d100c2a4b2dde614abc1b56dc52f96a7ed91",
+      "editorCompatibility": "2019.3.0a1",
+      "version": "4.2.3",
+      "source": "registry"
+    },
     "com.unity.feature.2d@2.0.1": {
       "name": "com.unity.feature.2d",
       "resolvedPath": "C:\\Прогги\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.feature.2d",
@@ -393,6 +401,22 @@
       "fingerprint": "522628f770b9d2c3ae8997a62e0d830ab761b320",
       "editorCompatibility": "2021.3.15f1",
       "version": "1.1.6",
+      "source": "registry"
+    },
+    "com.unity.editorcoroutines@1.0.0": {
+      "name": "com.unity.editorcoroutines",
+      "resolvedPath": "C:\\Прогги\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.editorcoroutines",
+      "fingerprint": "7d48783e7b8cfcee5f8ef9ba787ed0d9dad4ebca",
+      "editorCompatibility": "2018.1.0a1",
+      "version": "1.0.0",
+      "source": "registry"
+    },
+    "com.unity.settings-manager@2.0.1": {
+      "name": "com.unity.settings-manager",
+      "resolvedPath": "C:\\Прогги\\MorseCode\\Morze\\Library\\PackageCache\\com.unity.settings-manager",
+      "fingerprint": "56a930affa1e4462d3595b5c19a1c2a4bf2015d2",
+      "editorCompatibility": "2018.4.0a1",
+      "version": "2.0.1",
       "source": "registry"
     },
     "com.unity.searcher@4.9.2": {

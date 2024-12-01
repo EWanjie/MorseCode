@@ -69,6 +69,7 @@ public class TextControler : MonoBehaviour
         {
             Reset();
             AudioMixerManager.lastScene = SceneManager.GetActiveScene().name;
+            GameManager.Instance.toSetting();
             SceneManager.LoadScene("Settings");
             return;
         }

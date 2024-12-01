@@ -167,6 +167,7 @@ public class SettingManager : MonoBehaviour
                 break;
             case 3:
                 SceneManager.LoadScene("Game Scene");
+                GameManager.Instance.StartAgain();
                 break;
         }
     }
